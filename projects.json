@@ -1,0 +1,78 @@
+[
+
+    {
+        "title" : "Oh My Food",
+        "descriptionTitle" : "Améliorez l'interface d'un site mobile avec des animations CSS",
+        "descriptionTexte" : "Ma mission était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. Cette fois-ci, j'avais à ma disposition des maquettes et un prototype Figma. 2 missions : créer une application responsive sur tout type d'appareil et ajouter des animations cohérentes",
+        "skillsUsedTitle" : "Compétences utilisées",
+        "skillsUsed" : {
+            "html" : "./design/icon/html.webp",
+            "css" : "./design/icon/css.webp"
+        },
+        "cover" : "./design/project/cover/ohmyfood.webp",
+        "url" : "https://github.com/lululecactus/Projet_4",
+        "alt" : "Plat de poisson et ses légumes"
+    },
+    {
+        "title" : "Sophie Bluel",
+        "descriptionTitle" : "Créez une page web dynamique avec JavaScript",
+        "descriptionTexte" : 
+        "Dans le cadre de ce projet, ma responsabilité était de présenter les réalisations de l'architecte d'intérieur Sophie Bluel sur la page d'accueil en extrayant ces informations à partir d'une API. Ensuite, j'ai été chargé de mettre en place les fonctionnalités de tri par filtre, d'ajout et de suppression des travaux exposés dans cette galerie. De plus, j'ai développé un système de connexion à partir d'une page dédiée.",
+        "skillsUsedTitle" : "Compétences utilisées",
+        "skillsUsed" : {
+            "html" : "./design/icon/html.webp",
+            "css" : "./design/icon/css.webp",
+            "javascript" : "./design/icon/javascript.webp"
+        },
+        "cover" : "./design/project/cover/sophieBluel.webp",
+        "url" : "https://github.com/lululecactus/Projet_6",
+        "alt" : "Portrait de Sophie Bluel"
+    },
+    {
+        "title" : "Kasa",
+        "descriptionTitle" : "Créez une application web de location immobilière avec React",
+        "descriptionTexte" : "Ce projet a nécessité une refonte complète d'un site immobilier statique, le transformant en une solution complète basée sur JavaScript, avec Node.js pour la partie serveur et React pour la partie client. J'ai élaboré des composants réutilisables",
+        "skillsUsedTitle" : "Compétences utilisées",
+        "skillsUsed" : {
+            "html" : "./design/icon/html.webp",
+            "css" : "./design/icon/css.webp",
+            "sass" : "./design/icon/sass.webp",
+            "javascript" : "./design/icon/javascript.webp",
+            "react" : "./design/icon/react.webp"
+        },
+        "cover" : "./design/project/cover/kasa.webp",
+        "url" : "https://github.com/lululecactus/Kasa",
+        "alt" : "Appartement moderne"
+    },
+    {
+        "title" : "Nina Carducci",
+        "descriptionTitle" : "Optimisez le référencement d'un site de photographe",
+        "descriptionTexte" : "J'ai amélioré le référencement de ce site en utilisant des outils d'audit tels que Lighthouse et Wave. J'ai révisé et optimisé le code HTML, CSS, JavaScript et Bootstrap en le nettoyant. J'ai également incorporé des balises meta conformes à la charte de Schéma.org et aux directives de Google Rich Snippet pour améliorer la visibilité du site sur les moteurs de recherche.",
+        "skillsUsedTitle" : "Compétences utilisées",
+        "skillsUsed" : {
+            "html" : "./design/icon/html.webp",
+            "css" : "./design/icon/css.webp",
+            "lighthouse" : "./design/icon/lighthouse.webp",
+            "wave" : "./design/icon/wave.webp"
+        },
+        "cover" : "./design/project/cover/nina.webp",
+        "url" : "https://github.com/lululecactus/Projet_9",
+        "alt" : "Portrait de Nina Carducci"
+    },
+    {
+        "title" : "Argent Bank",
+        "descriptionTitle" : "Implémentez le front-end d'une application bancaire avec React",
+        "descriptionTexte" : "Argent Bank est une banque en ligne qui nécessite un système d'authentification. L'idée sous-jacente était d'exploiter Redux pour sauvegarder des états dans le store, permettant ainsi de conserver des données provenant d'une API, telles que le token, le nom, le prénom de l'utilisateur et son pseudonyme.",
+        "skillsUsedTitle" : "Compétences utilisées",
+        "skillsUsed" : {
+            "html" : "./design/icon/html.webp",
+            "css" : "./design/icon/css.webp",
+            "javascript" : "./design/icon/javascript.webp",
+            "react" : "./design/icon/react.webp",
+            "redux" : "./design/icon/redux.webp"
+        },
+        "cover" : "./design/project/cover/argentBank.webp",
+        "url" : "https://github.com/lululecactus/Projet_11",
+        "alt" : "Plante dans un verre rempli de pièces de monnaie"
+    }
+]
