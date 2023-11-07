@@ -1,34 +1,34 @@
 // Fonction pour afficher la navigation progressivement en fonction du défilement
 
-// const aboutSection = document.querySelector('#about');
-// const nav = document.querySelector('nav');
-// let navVisible = false;
+const aboutSection = document.querySelector('#about');
+const nav = document.querySelector('nav');
+let navVisible = false;
 
-// function afficherNavigation() {
-//   const header = document.querySelector('header');
-//   const position = window.scrollY;
-//   const navStartAnimationPosition = aboutSection.offsetTop - header.clientHeight / 4;
+function afficherNavigation() {
+  const header = document.querySelector('header');
+  const position = window.scrollY;
+  const navStartAnimationPosition = aboutSection.offsetTop - header.clientHeight / 4;
 
-//   if (position >= navStartAnimationPosition) {
-//     if (!navVisible) {
-//       nav.style.opacity = '1';
-//       nav.style.pointerEvents = 'auto';
-//       navVisible = true;
-//     }
-//   } else {
-//     if (navVisible) {
-//       nav.style.opacity = '0';
-//       nav.style.pointerEvents = 'none';
-//       navVisible = false;
-//     }
-//   }
+  if (position >= navStartAnimationPosition) {
+    if (!navVisible) {
+      nav.style.opacity = '1';
+      nav.style.pointerEvents = 'auto';
+      navVisible = true;
+    }
+  } else {
+    if (navVisible) {
+      nav.style.opacity = '0';
+      nav.style.pointerEvents = 'none';
+      navVisible = false;
+    }
+  }
 
-//   nav.style.transition = 'opacity 0.3s ease';
-// }
+  nav.style.transition = 'opacity 0.3s ease';
+}
 
-// nav.style.pointerEvents = 'none';
+nav.style.pointerEvents = 'none';
 
-// window.addEventListener('scroll', afficherNavigation);
+window.addEventListener('scroll', afficherNavigation);
 
 
 // Récupérer et afficher les données du fichier JSON des compétences
