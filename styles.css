@@ -32,7 +32,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: url("./design/img/octavian-rosca-UfCYo7zHyY8-unsplash.jpg");
+  background-image: url("./design/img/Background.webp");
   background-size: cover;
   padding: 30px 0;
   border-bottom: 2px solid black;
@@ -84,6 +84,7 @@ nav ul li {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  background-image: url("./design/img/Banner.webp");
 }
 .header-container h1 {
   position: absolute;
@@ -111,14 +112,14 @@ nav ul li {
 @media (min-width: 901px) {
   .header-container {
     height: 70vh;
-    background-image: url("./design/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+    
   }
 
 }
 @media (min-width: 601px) and (max-width: 900px) {
   .header-container {
     height: 50vh;
-    background-image: url("./design/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+   
   }
   .header-container h1{
     font-size: 2.5rem;
@@ -133,7 +134,6 @@ nav ul li {
 @media (max-width: 600px) {
   .header-container {
     height: 25vh;
-    background-image: url("./design/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
     background-size: fill;
   }
   .header-container h1 {
@@ -232,7 +232,7 @@ section h2 {
   min-width: 250px;
   position: relative;
   border-radius: 40px;
-  background-image: url("./design/img/photo-1674049404913-2005c02245fa.avif");
+  background-image: url("./design/img/card.webp");
   background-size: 250px;
   background-color:#1D3944;
 
@@ -245,7 +245,7 @@ section h2 {
   overflow: hidden;
 }
 #about div.card:hover {
-  background-image: url("./design/img/20230303_170019.jpg");
+  background-image: url("./design/img/cardHover.webp");
 }
 
 #about div.card:hover .icons {
@@ -301,7 +301,7 @@ section h2 {
   width: 100%;
   padding-bottom: 100px;
   background-size: cover;
-  background-image: url("./design/img/octavian-rosca-UfCYo7zHyY8-unsplash.jpg");
+  background-image: url("./design/img/Background.webp");
 
 }
 .skills h2 {
@@ -393,7 +393,7 @@ section h2 {
   margin-bottom: 100px;
   opacity: 0;
   transform: translateY(300px);
-  transition: all 2s ease-in-out;
+  transition: all 1.2s ease-in-out;
 }
 #portfolio .activeProjects {
   opacity: 1;
