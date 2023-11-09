@@ -167,7 +167,6 @@ window.addEventListener('scroll', () => {
   // Gestion du scroll down avec la flèche
 
   const arrowDown = document.getElementById('arrowDown').addEventListener("click", scrollDown);
-  console.log(aboutSection)
 
   function scrollDown() {
     const aboutSectionRect = aboutSection.getBoundingClientRect();
